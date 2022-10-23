@@ -7,6 +7,7 @@ function App() {
         <img src={profilepic} alt="" />
         <h1>Me</h1>
         <p>We</p>
+        <p>us</p>
       </header>
     </div>
   );
