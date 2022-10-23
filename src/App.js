@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <header>
         <img src={profilepic} alt="" />
+        <h1>Me</h1>
       </header>
     </div>
   );
