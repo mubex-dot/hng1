@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.App {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 5.5em;
+}
+header h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+header .share {
+  width: 2.5em;
+  align-self: flex-end;
+}
+main a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #101828;
+  cursor: pointer;
+  padding: 1em;
+  background-color: #eaecf0;
+  margin: 1em auto;
+  width: 96%;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 0;
+  font-weight: 500;
+  transition: 0.5s;
+}
+main a:hover,
+main a:focus {
+  width: 100%;
+  padding: 1.1em;
+}
+main {
+  display: flex;
+  width: 100%;
+}
