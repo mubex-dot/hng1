@@ -1,7 +1,14 @@
 function Links(props) {
   return (
     <main>
-      <a href={props.link.url}>{props.link.desc}</a>
+      <a
+        id={props.link.id}
+        href={props.link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {props.link.desc}
+      </a>
     </main>
   );
 }

@@ -8,7 +8,7 @@ function Header() {
       <img src={profilepic} alt="" id="profile__img" />
       <h2 id="twitter">m_u_b_e_x_</h2>
       <h2 id="slack" style={{ display: "none" }}>
-        Mubarak Ibrahim
+        mubee2004
       </h2>
     </header>
   );

@@ -4,7 +4,7 @@ import Links from "./components/Links";
 import data from "./data";
 
 const links = data.map((link) => {
-  return <Links key={link.url} link={link} />;
+  return <Links key={link.id} link={link} />;
 });
 
 function App() {

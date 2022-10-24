@@ -52,7 +52,7 @@ main a {
 main a:hover,
 main a:focus {
   width: 100%;
-  padding: 1.1em;
+  font-weight: 600;
 }
 main {
   display: flex;
