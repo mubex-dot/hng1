@@ -24,15 +24,30 @@ header {
   align-items: center;
 }
 header img {
+  margin: 0;
   width: 5.5em;
 }
 header h2 {
   font-size: 1.25rem;
   font-weight: 700;
 }
-header .share {
+.share {
+  width: 60vw;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.menu {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.share img,
+.menu img {
   width: 2.5em;
-  align-self: flex-end;
+  margin: 0;
+  padding: 0;
 }
 main a {
   font-size: 1.125rem;
@@ -57,4 +72,19 @@ main a:focus {
 main {
   display: flex;
   width: 100%;
+}
+@media (max-width: 519px) {
+  .App {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu {
+    width: 92vw;
+  }
 }

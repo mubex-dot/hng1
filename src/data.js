@@ -18,7 +18,7 @@ export default [
   {
     id: "book__python",
     desc: "Python Books",
-    url: "https://books.zuri.team/python-for-beginners?ref_id=mubee2004",
+    url: "https://books.zuri.team/python-for-beginners?ref_id=Mubarak-Ibrahim",
   },
   {
     id: "pitch",
