@@ -6,6 +6,7 @@ import ShareIcon from "./components/ShareIcon";
 import Social from "./components/Social";
 import MenuIcon from "./components/MenuIcon";
 import { createMedia } from "@artsy/fresnel";
+import Footer from "./components/Footer";
 
 const { MediaContextProvider, Media } = createMedia({
   breakpoints: {
@@ -34,6 +35,7 @@ function App() {
       <Header />
       {links}
       <Social />
+      <Footer />
     </div>
   );
 }

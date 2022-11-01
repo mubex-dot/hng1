@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
-  font-size: 14px;
+  font-size: 12.3px;
 }
 body {
   margin: 0;
@@ -25,7 +25,7 @@ header {
 }
 header img {
   margin: 0;
-  width: 5.5em;
+  width: 4.8em;
 }
 header h2 {
   font-size: 1.25rem;
@@ -38,16 +38,16 @@ header h2 {
   cursor: pointer;
 }
 .menu {
-  width: 80vw;
+  width: 92vw;
   display: flex;
   justify-content: flex-end;
-  cursor: pointer;
 }
 .share img,
 .menu img {
   width: 2.5em;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 main a {
   font-size: 1.125rem;
@@ -73,18 +73,69 @@ main {
   display: flex;
   width: 100%;
 }
+.social {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slackimg {
+  margin-right: 0.5em;
+}
+.githubimg {
+  margin-left: 0.5em;
+}
+.social img {
+  width: 1.2em;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 105%;
+  border-top: 1px solid #eaecf0;
+  margin-top: 4em;
+  padding-top: 2em;
+}
+.footer P {
+  color: #667085;
+}
+.footer img {
+  width: 12em;
+}
+.footer .ingressive {
+  width: 10.5em;
+}
+
 @media (max-width: 519px) {
+  html {
+    font-size: 12.8px;
+  }
   .App {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 92%;
     margin-left: auto;
     margin-right: auto;
+    width: 92%;
   }
   .menu {
-    width: 92vw;
+    display: flex;
+    margin-left: auto;
+  }
+  .footer {
+    display: block;
+    width: 100%;
+  }
+  .footer img {
+    margin-bottom: 1em;
+  }
+  .footer p {
+    margin-top: 0;
+  }
+  .footer .ingressive {
+    width: 8em;
   }
 }

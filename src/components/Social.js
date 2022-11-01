@@ -3,9 +3,9 @@ import github from "../images/github.svg";
 
 function Social() {
   return (
-    <div>
-      <img src={slack} alt="" />
-      <img src={github} alt="" />
+    <div className="social">
+      <img className="slackimg" src={slack} alt="" />
+      <img className="githubimg" src={github} alt="" />
     </div>
   );
 }
