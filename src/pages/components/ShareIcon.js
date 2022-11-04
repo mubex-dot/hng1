@@ -1,5 +1,5 @@
-import shareBtn from "../images/share.svg";
-import sharepress from "../images/sharepress.svg";
+import shareBtn from "../../images/share.svg";
+import sharepress from "../../images/sharepress.svg";
 
 function ShareIcon() {
   let swapped = false;

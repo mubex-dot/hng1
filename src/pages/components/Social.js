@@ -1,5 +1,5 @@
-import slack from "../images/slack.svg";
-import github from "../images/github.svg";
+import slack from "../../images/slack.svg";
+import github from "../../images/github.svg";
 
 function Social() {
   return (

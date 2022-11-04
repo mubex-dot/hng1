@@ -1,5 +1,5 @@
-import menu from "../images/menu.svg";
-import menupressed from "../images/menu-pressed.svg";
+import menu from "../../images/menu.svg";
+import menupressed from "../../images/menu-pressed.svg";
 
 function MenuIcon() {
   let swapped = false;

@@ -4,7 +4,7 @@ function Links(props) {
       <a
         id={props.link.id}
         href={props.link.url}
-        target="_blank"
+        target={props.link.target}
         rel="noopener noreferrer"
       >
         {props.link.desc}

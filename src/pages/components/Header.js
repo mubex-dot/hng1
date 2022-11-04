@@ -1,5 +1,5 @@
-import profilepic from "../images/profilepic.svg";
-import profilechoose from "../images/profilechoose.svg";
+import profilepic from "../../images/profilepic.svg";
+import profilechoose from "../../images/profilechoose.svg";
 import { createMedia } from "@artsy/fresnel";
 
 const { MediaContextProvider, Media } = createMedia({

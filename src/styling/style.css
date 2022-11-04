@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-.App {
+.Render {
   margin-top: 2em;
   display: flex;
   flex-direction: column;
@@ -32,9 +32,7 @@ header h2 {
   font-weight: 700;
 }
 .share {
-  width: 60vw;
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 60em;
   cursor: pointer;
 }
 .menu {
@@ -68,6 +66,7 @@ main a:hover,
 main a:focus {
   width: 100%;
   font-weight: 600;
+  background-color: #d0d5dd;
 }
 main {
   display: flex;
@@ -111,7 +110,7 @@ main {
   html {
     font-size: 12.8px;
   }
-  .App {
+  .Render {
     margin-top: 2em;
     display: flex;
     flex-direction: column;

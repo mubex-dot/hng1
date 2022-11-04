@@ -1,5 +1,5 @@
-import zurilogo from "../images/zurilogo.svg";
-import ingressive from "../images/ingressive.svg";
+import zurilogo from "../../images/zurilogo.svg";
+import ingressive from "../../images/ingressive.svg";
 
 function Footer() {
   return (
