@@ -36,10 +36,4 @@ export default [
     url: "https://books.zuri.team/design-rules",
     target: "_blank",
   },
-  {
-    id: "contact",
-    desc: "Contact Me",
-    url: "/#/contact",
-    target: "_self",
-  },
 ];

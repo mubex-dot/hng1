@@ -7,6 +7,7 @@ import Social from "./Social";
 import MenuIcon from "./MenuIcon";
 import { createMedia } from "@artsy/fresnel";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const { MediaContextProvider, Media } = createMedia({
   breakpoints: {
@@ -34,6 +35,9 @@ function Render() {
       </MediaContextProvider>
       <Header />
       {links}
+      <main>
+        <Link to="/contact">Contact Me</Link>
+      </main>
       <Social />
       <Footer />
     </div>
