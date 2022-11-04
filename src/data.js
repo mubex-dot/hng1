@@ -39,7 +39,7 @@ export default [
   {
     id: "contact",
     desc: "Contact Me",
-    url: "../contact",
+    url: "/#/contact",
     target: "_self",
   },
 ];
