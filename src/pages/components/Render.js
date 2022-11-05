@@ -1,5 +1,4 @@
 import Header from "./Header";
-import style from "../../styling/style.css";
 import Links from "./Links";
 import data from "../../data";
 import ShareIcon from "./ShareIcon";
@@ -24,7 +23,7 @@ const links = data.map((link) => {
 
 function Render() {
   return (
-    <div className="Render" style={style}>
+    <div className="Render">
       <MediaContextProvider>
         <Media at="sm">
           <MenuIcon />
@@ -36,7 +35,9 @@ function Render() {
       <Header />
       {links}
       <main>
-        <Link to="/contact">Contact Me</Link>
+        <Link id="contact" to="/contact">
+          Contact Me
+        </Link>
       </main>
       <Social />
       <Footer />
