@@ -42,7 +42,7 @@ function Form() {
           </label>
         </div>
         <br />
-        <button>Send message</button>
+        <button id="btn__submit">Send message</button>
       </form>
     </>
   );
