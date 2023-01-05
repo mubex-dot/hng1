@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
-  font-size: 12.3px;
+  font-size: 14px;
 }
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
+
 textarea,
 input {
   font-family: "Inter", sans-serif;
@@ -21,7 +22,7 @@ input:active {
 }
 .Render,
 .contactme {
-  margin-top: 2em;
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,6 +30,9 @@ input:active {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+.Render {
+  max-width: 1000px;
 }
 .contactme {
   margin-top: 5em;
@@ -55,6 +59,7 @@ header img {
 header h2 {
   font-size: 1.25rem;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 .share {
   margin-left: 60em;
@@ -73,7 +78,7 @@ header h2 {
   cursor: pointer;
 }
 main a {
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-decoration: none;
   color: #101828;
   cursor: pointer;

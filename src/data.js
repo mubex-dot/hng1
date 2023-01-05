@@ -3,12 +3,12 @@ export default [
   {
     id: "linkedin",
     desc: "Linkedin",
-    url: "https://www.linkedin.com/in/mubarak-ibrahim-b04684234/",
+    url: "https://www.linkedin.com/in/mubarak-ibrahim-05288a260",
     target: "_blank",
   },
   {
     id: "twitter",
-    desc: "Twitter Link",
+    desc: "Twitter",
     url: "https://twitter.com/m_u_b_e_x_",
     target: "_blank",
   },
@@ -27,7 +27,7 @@ export default [
   {
     id: "whatsapp",
     desc: "Whatsapp",
-    url: "https://api.whatsapp.com/qr/GT66T5TVSCXGO1",
+    url: "https://wa.me/qr/GT66T5TVSCXGO1",
     target: "_blank",
   },
   {
